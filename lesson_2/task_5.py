@@ -7,6 +7,5 @@ while True:
     break
 
 list.sort()
-list.reverse()
+list = list[::-1]
 print(list)
-
