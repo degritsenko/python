@@ -3,7 +3,7 @@ list = [7, 5, 3, 3, 2]
 
 while True:
     n = int(input("enter number:"))
-    list.append(n)
+    list.append(float(n))
     break
 
 list.sort()
