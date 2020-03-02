@@ -10,5 +10,9 @@ for x in count():
 
 #тут не смог придумать, как сделать break по условию
 from itertools import cycle
+
 for y in cycle([1, 2]):
+    if count(cycle()) > 2:
+        break
     print(y)
+
